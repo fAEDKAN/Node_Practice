@@ -1,9 +1,5 @@
 /* Crear la función range_vision() que, dado un entero no negativo, determine si hay al menos un dígito 1 en el entero que tiene el valor de visualización más bajo de todos los dígitos del entero. La función debe devolver un booleano: true cuando un dígito 1 tiene el valor de vista más bajo en el número dado, false de lo contrario. */
 
-//El rango de visión de un dígito es su propio valor. 1 puede ver un dígito a la izquierda y un dígito a la derecha, 2 puede ver dos dígitos y así sucesivamente.
-//Así, la soledad de un dígito N es la suma de los dígitos que puede ver.
-//Dado un entero no negativo, su función debe determinar si hay al menos un dígito 1 en este entero de modo que su valor de soledad sea mínimo.
-
 function range_vision(N) {
   //se convierte de N a String, permite trabajar c/ dígitos independientemente
   const numString = Array.from(String(N), Number);
