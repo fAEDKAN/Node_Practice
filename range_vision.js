@@ -60,24 +60,16 @@ function range_vision(N) {
     `¿El valor mínimo fue calculado a partir de un dígito igual a 1? ${lowestValue}`
   );
 
-  return minValue;
+  return lowestValue;
 }
 
-const num1 = 847400;
-const num2 = 718991;
-const num3 = 511248;
-const num4 = 246253;
-const num5 = 105295;
-const num6 = 646669;
-const num7 = 492391;
-const num8 = 34315;
-range_vision(num1); //false
-range_vision(num2); //true
-range_vision(num3); //true
-range_vision(num4); //false
-range_vision(num5); //true
-range_vision(num6); //false
-range_vision(num7); //true
-range_vision(num8); //true
+console.log(range_vision(847400)); //false
+console.log(range_vision(718991)); //true
+console.log(range_vision(511248)); //true
+console.log(range_vision(246253)); //false
+console.log(range_vision(105295)); //true
+console.log(range_vision(646669)); //false
+console.log(range_vision(492391)); //true
+console.log(range_vision(34315)); //true
 
 module.exports = range_vision;
