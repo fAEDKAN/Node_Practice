@@ -2,7 +2,7 @@
 
 ## Technical Test for Admission to Formar Software Factory
 
-### Exercises in Node.JS':'
+### Exercises in Node.JS
 
 1. Escriba la función fizz_buzz() que devuelve un array de 1 a N, pero:
    Para múltiplos de 3, imprime “Fizz”
